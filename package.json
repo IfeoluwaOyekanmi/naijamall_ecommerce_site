@@ -1,0 +1,12 @@
+{
+  "name": "naijamall_ecommerce_site",
+  "version": "1.0.0",
+  "description": "alx-portfolio_project_naijamall_ecommerce_project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
