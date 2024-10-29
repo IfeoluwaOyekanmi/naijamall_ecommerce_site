@@ -5,21 +5,26 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server" : "nodemon backend/server.js",
-    "client" : "npm start --prefix frontend",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client \"",
     "data:import": "node backend/seederScript.js"
   },
-  "keywords": [], 
+  "keywords": [],
   "author": "Ife Oyekanmi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongoose": "^8.7.1"
+    "mongoose": "^8.7.1",
+    "react-scripts": "^5.0.1",
+    "redux-devtools-extension": "^2.13.9"
   },
   "devDependencies": {
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.7"
-  }
+  },
+  "resolutions": {
+  "babel-jest": "24.8.0"
+}
 }
