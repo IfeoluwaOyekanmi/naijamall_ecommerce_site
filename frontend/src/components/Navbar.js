@@ -11,15 +11,14 @@ const Navbar = () => {
       
         <ul className="nav__links">
           <li>
-            <Link to='/cart'>
+            <Link to='/cart' className='cart__link'>
             <i className='fas fa-shopping-cart'></i>
-            Cart
-              <span className="cartlogo__badge">0</span>
+             <span>Cart
+             <span className="cartlogo__badge"> 0 </span></span>
             </Link> 
           </li>
           <li>
-            <Link to='/shop'>
-       
+            <Link to='/'>       
               Shop
               <span className="cartlogo__badge">0</span>
             </Link> 
@@ -27,7 +26,6 @@ const Navbar = () => {
         </ul>
   
       <div className="hamburger__menu">
-        <div></div>
         <div></div>
         <div></div>
         <div></div>
