@@ -6,21 +6,21 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <div className="navbar__logo">
-          <h2>naijamall</h2>
+          <h2>NaijaMall</h2>
         </div>
       
         <ul className="nav__links">
           <li>
             <Link to='/cart' className='cart__link'>
             <i className='fas fa-shopping-cart'></i>
-             <span>Cart
-             <span className="cartlogo__badge"> 0 </span></span>
+             <span>Cart</span>
+             <span className="cartlogo__badge"> 0 </span>
             </Link> 
           </li>
           <li>
             <Link to='/'>       
               Shop
-              <span className="cartlogo__badge">0</span>
+              <span className="cartlogo__badge"></span>
             </Link> 
           </li>
         </ul>
