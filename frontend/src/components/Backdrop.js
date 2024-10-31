@@ -1,7 +1,8 @@
 import './Backdrop.css';
+import React from 'react';
 const Backdrop = () => {
   return (
-    <div className="">
+    <div className="backdrop">
 
     </div>
   )
